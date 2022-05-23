@@ -1,0 +1,40 @@
+.cart-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 20rem;
+  overflow-y: scroll;
+}
+
+.item {
+  padding: 0.4rem;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  height: 5rem;
+}
+
+.quantities {
+  margin-right: 1rem;
+}
+
+.cartBtn {
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-grey);
+  border-radius: 50px;
+  margin-left: 0.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  transition: all 0.1s;
+}
+
+.cartBtn:hover {
+  cursor: pointer;
+}
+
+.cartBtn:active {
+  transform: translateY(2px);
+}

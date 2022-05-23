@@ -1,0 +1,11 @@
+.cartHeader {
+  font-size: 2rem;
+}
+
+.cartBtn {
+  margin: 1rem;
+}
+
+.checkout {
+  display: flex;
+}

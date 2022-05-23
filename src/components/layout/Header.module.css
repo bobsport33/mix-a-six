@@ -1,0 +1,68 @@
+.header {
+  background-image: linear-gradient(
+      to right bottom,
+      var(--color-gradient),
+      var(--color-gradient-2)
+    ),
+    url("../img/beer_bottles.jpg");
+  /* background-image: linear-gradient(
+    to right bottom,
+    var(--color-gradient),
+    var(--color-primary-2),
+    url("../img/beer_bottles.jpg")
+  ); */
+  background-size: auto 100%;
+  height: 40rem;
+}
+
+.nav {
+  color: var(--color-light);
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  justify-content: flex-end;
+  font-size: 1.6rem;
+  padding-right: 1rem;
+}
+.logo {
+  padding: 0 3rem;
+}
+
+.link {
+  padding: 0 3rem;
+}
+
+.link:hover {
+  cursor: pointer;
+  color: var(--color-grey);
+}
+
+.title {
+  text-align: center;
+  font-size: 8rem;
+  color: var(--color-light);
+  font-family: "ubantu";
+  margin-bottom: 0;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 3rem;
+  color: var(--color-light);
+  font-family: "ubantu";
+}
+
+.badge {
+  background-color: var(--color-grey);
+  padding: 0.25rem 1rem;
+  border-radius: 2.5rem;
+  font-weight: bold;
+  color: var(--color-primary);
+  margin-left: 1rem;
+}
